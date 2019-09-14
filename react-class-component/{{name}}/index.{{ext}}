@@ -1,4 +1,4 @@
-import { default as {{name}} } from './{{name}}.{{ext}}x';
+import { default as {{name}} } from './{{name}}';
 
-export * from './{{name}}.{{ext}}x';
+export * from './{{name}}';
 export default {{name}};
