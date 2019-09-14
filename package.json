@@ -1,0 +1,24 @@
+{
+  "name": "custom-schematics",
+  "version": "1.0.0",
+  "description": "Various Boiler Plate scaffolding for generating base file structures.",
+  "author": "Pekes317",
+  "license": "MIT",
+  "homepage": "https://github.com/Pekes317/custom-schematics#readme",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/Pekes317/custom-schematics/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pekes317/custom-schematics.git"
+  },
+  "keywords": [],
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true
+  }
+}
