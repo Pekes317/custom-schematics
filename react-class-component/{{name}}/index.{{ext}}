@@ -1,0 +1,4 @@
+import { default as {{name}} } from './{{name}}';
+
+export * from './{{name}}';
+export default {{name}};

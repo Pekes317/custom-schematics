@@ -1,0 +1,15 @@
+import * as React from 'react';
+
+import './{{name}}.{{style}}';
+
+export class {{name}} extends React.Component {
+  render() {
+    return (
+      <div>
+        <p>New Component {{ name }}</p>
+      </div>
+    );
+  }
+}
+
+export default {{name}};
