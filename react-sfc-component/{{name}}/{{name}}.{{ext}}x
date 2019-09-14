@@ -1,0 +1,12 @@
+import * as React from 'react';
+
+import './{{name}}.module.{{style}}';
+
+export const {{name}} = ({ children }) => (
+  <div>
+    <p>New Component {{ name }}</p>
+    {children}
+  </div>
+);
+
+export default {{name}};
