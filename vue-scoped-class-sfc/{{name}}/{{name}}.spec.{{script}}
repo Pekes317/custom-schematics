@@ -1,0 +1,9 @@
+import { shallowMount } from '@vue/test-utils';
+import {{name}} from './{{name}}.vue';
+
+describe('{{name}}.vue', () => {
+  it('renders a div', () => {
+    const wrapper = shallowMount({{name}});
+    expect(wrapper.is({{name}})).toBe(true);
+  });
+});

@@ -1,0 +1,5 @@
+variables:
+  - name
+  - script
+  - style
+  - template
