@@ -1,0 +1,9 @@
+import Vue from 'vue';
+
+export const {{name}} = Vue.extend({
+    data: () => {
+        return {}
+    }
+});
+
+export default {{name}};
