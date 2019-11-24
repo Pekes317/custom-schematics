@@ -1,0 +1,13 @@
+import { CustomElement } from './{{name}}';
+
+describe('CustomElement', () => {
+  let element: CustomElement;
+
+  beforeEach(() => {
+    element = new CustomElement();
+  });
+
+  it('should create successfully', () => {
+    expect(element).toBeTruthy();
+  });
+});

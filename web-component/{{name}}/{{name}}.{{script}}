@@ -1,0 +1,12 @@
+import '{{name}}.{{style}}'
+
+// change Class Name to match (set as A generic name)
+export class CustomElement extends HTMLElement {
+    static observedAttributes = [];
+
+    connectedCallback() {}
+}
+
+export default CustomElement;
+
+customElement.define('{{name}}', CustomElement);
