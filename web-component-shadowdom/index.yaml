@@ -1,0 +1,6 @@
+variables:
+  - name
+  - script
+  - style
+  - class
+  - prefix

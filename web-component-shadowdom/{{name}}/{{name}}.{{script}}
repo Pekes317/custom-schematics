@@ -1,0 +1,29 @@
+import './{{name}}.{{style}}'
+
+export class {{class}} extends HTMLElement {
+    static observedAttributes = [];
+    
+    shadowRootMap = new WeakMap<HTMLElement, ShadowRoot>();
+
+    constructor() {
+        super();
+        const shadowRoot = this.attachShadow({ mode: 'closed' });
+        this.shadowRootMap.set(this, shadowRoot);
+    }
+
+    connectedCallback() {
+        const shadowDom = this.shadowRootMap.get(this);
+    }
+
+    setStyles(dom) {
+        const style = document.createElement('style');
+        dom.appendChild(style);
+
+        const styleSheet = style.sheet;
+        styleSheet.addRule(':host', 'display: block;');
+  }
+}
+
+export default  {{class}};
+
+customElements.define('{{prefix}}-{{name}}',  {{class}});

@@ -1,0 +1,4 @@
+import { {{class}} } from './{{name}}';
+
+export * from './{{name}}';
+export default {{class}};
