@@ -3,7 +3,7 @@ import './{{name}}.{{style}}'
 export class {{class}} extends HTMLElement {
     static observedAttributes = [];
     
-    shadowRootMap = new WeakMap<HTMLElement, ShadowRoot>();
+    shadowRootMap = new WeakMap();
 
     constructor() {
         super();
