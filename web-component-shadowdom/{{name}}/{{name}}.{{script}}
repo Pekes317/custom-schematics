@@ -13,6 +13,8 @@ export class {{class}} extends HTMLElement {
 
     connectedCallback() {
         const shadowDom = this.shadowRootMap.get(this);
+
+        this.setStyles(shadowDom);
     }
 
     setStyles(dom) {
