@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { default as styles } from './{{name}}.module.{{style}}';;
+import { default as styles } from './{{name}}.module.{{style}}';
 
 export const {{name}} = ({ children }) => (
   <div>
