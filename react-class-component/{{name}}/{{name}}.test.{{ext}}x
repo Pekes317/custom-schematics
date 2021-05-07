@@ -1,11 +1,10 @@
-import { cleanup, render } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import * as React from 'react';
 
 import {{name}} from './{{name}}';
 
 describe('<{{name}} />', () => {
   it('renders without crashing', () => {
-    render(<{{name}} />);
-    cleanup();
+    render(<{{name}} />); 
   });
 });
