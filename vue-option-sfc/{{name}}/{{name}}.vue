@@ -1,4 +1,4 @@
-<style {{scoped}} lang="{{style}}">
+<style {{scoped}} {{module}} lang="{{style}}">
 </style>
 
 <template lang="{{template}}"></template>

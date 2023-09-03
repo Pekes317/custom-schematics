@@ -4,3 +4,4 @@ variables:
   - style
   - template
   - scoped
+  - module
