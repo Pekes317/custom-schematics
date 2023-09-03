@@ -5,4 +5,4 @@
 
 </script>
 
-<template lang="{{template}}"></template>
+<template></template>
