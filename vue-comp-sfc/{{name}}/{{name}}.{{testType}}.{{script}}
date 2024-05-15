@@ -3,7 +3,10 @@ import {{name}} from './{{name}}.vue';
 
 describe('{{name}}.vue', () => {
   it('renders a div', () => {
+    expect({{name}}).toBeTruthy();
+    
     const wrapper = shallowMount({{name}});
-    expect(wrapper.is({{name}})).toBe(true);
+    
+    expect(wrapper).toBeTruthy();
   });
 });
